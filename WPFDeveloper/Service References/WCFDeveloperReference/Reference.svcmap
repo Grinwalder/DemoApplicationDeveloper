@@ -1,0 +1,35 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ReferenceGroup xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema" ID="56a29dfb-456c-4b37-a038-1fbc6fd520e0" xmlns="urn:schemas-microsoft-com:xml-wcfservicemap">
+  <ClientOptions>
+    <GenerateAsynchronousMethods>false</GenerateAsynchronousMethods>
+    <GenerateTaskBasedAsynchronousMethod>true</GenerateTaskBasedAsynchronousMethod>
+    <EnableDataBinding>true</EnableDataBinding>
+    <ExcludedTypes />
+    <ImportXmlTypes>false</ImportXmlTypes>
+    <GenerateInternalTypes>false</GenerateInternalTypes>
+    <GenerateMessageContracts>false</GenerateMessageContracts>
+    <NamespaceMappings />
+    <CollectionMappings />
+    <GenerateSerializableTypes>true</GenerateSerializableTypes>
+    <Serializer>Auto</Serializer>
+    <UseSerializerForFaults>true</UseSerializerForFaults>
+    <ReferenceAllAssemblies>true</ReferenceAllAssemblies>
+    <ReferencedAssemblies />
+    <ReferencedDataContractTypes />
+    <ServiceContractMappings />
+  </ClientOptions>
+  <MetadataSources>
+    <MetadataSource Address="http://localhost:50436/WCFDeveloper.svc" Protocol="http" SourceId="1" />
+  </MetadataSources>
+  <Metadata>
+    <MetadataFile FileName="WCFDeveloper1.xsd" MetadataType="Schema" ID="3819fe6a-2c97-4255-a211-e731792114d7" SourceId="1" SourceUrl="http://localhost:50436/WCFDeveloper.svc?xsd=xsd1" />
+    <MetadataFile FileName="WCFDeveloper3.xsd" MetadataType="Schema" ID="e92c9d99-aebe-4f2e-b4a6-7caa66179476" SourceId="1" SourceUrl="http://localhost:50436/WCFDeveloper.svc?xsd=xsd0" />
+    <MetadataFile FileName="WCFDeveloper2.xsd" MetadataType="Schema" ID="311bfcd5-70b5-44a7-b754-bb6a2e49afed" SourceId="1" SourceUrl="http://localhost:50436/WCFDeveloper.svc?xsd=xsd2" />
+    <MetadataFile FileName="WCFDeveloper.wsdl" MetadataType="Wsdl" ID="ade887d3-7849-49de-a402-4213fe678b06" SourceId="1" SourceUrl="http://localhost:50436/WCFDeveloper.svc?wsdl" />
+    <MetadataFile FileName="WCFDeveloper.disco" MetadataType="Disco" ID="ac962f39-19c9-4328-9865-82e3b7d077d8" SourceId="1" SourceUrl="http://localhost:50436/WCFDeveloper.svc?disco" />
+  </Metadata>
+  <Extensions>
+    <ExtensionFile FileName="configuration91.svcinfo" Name="configuration91.svcinfo" />
+    <ExtensionFile FileName="configuration.svcinfo" Name="configuration.svcinfo" />
+  </Extensions>
+</ReferenceGroup>
