@@ -1,0 +1,68 @@
+<?xml version="1.0"?>
+<doc>
+    <assembly>
+        <name>LIBDeveloper</name>
+    </assembly>
+    <members>
+        <member name="P:LIBDeveloper.Developer.IdDeveloper">
+            <summary>
+            Set or get developer's id
+            </summary>   
+        </member>
+        <member name="P:LIBDeveloper.Developer.FirstName">
+            <summary>
+            Set or Get the first name field
+            </summary>
+        </member>
+        <member name="P:LIBDeveloper.Developer.LastName">
+            <summary>
+            Set or get the last name field
+            </summary>
+        </member>
+        <member name="P:LIBDeveloper.Developer.ProgrammingLanguages">
+            <summary>
+            Set or Get the programming languages field
+            </summary>
+        </member>
+        <member name="M:LIBDeveloper.Developer.#ctor(System.Int32,System.String,System.String,System.Collections.ObjectModel.ObservableCollection{LIBDeveloper.ProgrammingLanguage})">
+            <summary>
+            Constructor of the developer class
+            </summary>
+            <param name="pIdDeveloper"></param>
+            <param name="pFirstName"></param>
+            <param name="pLastName"></param>
+            <param name="pLanguages"></param>
+        </member>
+        <member name="M:LIBDeveloper.Developer.#ctor(System.Int32,System.String,System.String)">
+            <summary>
+            Constructor of the developer class
+            </summary>
+            <param name="pIdDeveloper"></param>
+            <param name="pFirstName"></param>
+            <param name="pLastName"></param>
+        </member>
+        <member name="M:LIBDeveloper.Developer.#ctor(System.String,System.String)">
+            <summary>
+            Constructor of the developer class
+            </summary>     
+            <param name="pFirstName"></param>
+            <param name="pLastName"></param>
+        </member>
+        <member name="P:LIBDeveloper.ProgrammingLanguage.IdProgrammingLanguage">
+            <summary>
+            Set or get field ProgrammingLanguage's id 
+            </summary>
+        </member>
+        <member name="P:LIBDeveloper.ProgrammingLanguage.LanguageName">
+            <summary>
+            Set or Get the field programming language's name
+            </summary>
+        </member>
+        <member name="M:LIBDeveloper.ProgrammingLanguage.#ctor(System.Int32,System.String)">
+            <summary>
+            Constructor of the ProgrammingLanguage class
+            </summary>
+            <param name="pLanguageName"></param>
+        </member>
+    </members>
+</doc>

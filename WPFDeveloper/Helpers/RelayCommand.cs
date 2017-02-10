@@ -3,6 +3,9 @@ using System.Windows.Input;
 
 namespace WPFDeveloper.Helpers
 {
+    /// <summary>
+    /// Source copied from https://code.msdn.microsoft.com/windowsdesktop/Easy-MVVM-Examples-fb8c409f#content
+    /// </summary>
     public class RelayCommand : ICommand
     {
         #region Fields
@@ -13,7 +16,6 @@ namespace WPFDeveloper.Helpers
         #endregion // Fields
 
         #region Constructors
-
         public RelayCommand(Action<object> execute)
             : this(execute, null)
         {
@@ -46,7 +48,6 @@ namespace WPFDeveloper.Helpers
         {
             _execute(parameter);
         }
-
         #endregion // ICommand Members
     }
 }
