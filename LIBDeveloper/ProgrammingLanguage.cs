@@ -10,7 +10,7 @@ namespace LIBDeveloper
     public class ProgrammingLanguage
     {
         /// <summary>
-        /// Set or get field ProgrammingLanguage's id
+        /// Set or get field ProgrammingLanguage's id 
         /// </summary>
         [DataMember]
         public int IdProgrammingLanguage { get; set; }
