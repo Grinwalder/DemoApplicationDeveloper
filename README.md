@@ -6,7 +6,7 @@ Tech : WPF, Webservice, EntityFramework 6, .NET 4.5, Visual Studio Community 201
 This project contains the model which are used in both WPF and WCF projects
 
 ##WPFDeveloper
-It's an interface project base on View/ViewModel design.
+It's an interface project based on View/ViewModel design.
 
 ##WCFDeveloper
 It's a WebService which handles the data's persistance with EntityFramework.
