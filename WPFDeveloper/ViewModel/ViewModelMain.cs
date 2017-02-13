@@ -30,7 +30,7 @@ namespace WPFDeveloper.ViewModel
         /// <summary>
         /// Field of the current known language selected
         /// </summary>
-        private ProgrammingLanguage _currentKnownLanguage;
+        private ProgrammingLanguage _currentKnownLanguage;     
         #endregion
 
         #region Public Properties
@@ -236,7 +236,8 @@ namespace WPFDeveloper.ViewModel
         /// <param name="obj"></param>
         private void SaveDevelopers(object obj)
         {
-            Service.SaveDevelopers(Developers.ToArray());                
+            Service.SaveDevelopers(Developers.ToArray());
+            System.Windows.MessageBox.Show("Changes have been saved", "Info");
         }
         #endregion
     }
