@@ -1,5 +1,5 @@
 #Demo Developer Application
-Demo of an application which manages to add/remove programing language to a developer, this app contains a WPF project for the view, and a WebService to handle data's persistance.
+Demo of an application which manages to add/remove programing languages to a developer, this app contains a WPF project for the view, and a WebService to handle data's persistance.
 Tech : WPF, Webservice, EntityFramework 6, .NET 4.5, Visual Studio Community 2015 
 
 ##LIBDeveloper
